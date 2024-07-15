@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e9dfb9;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.convert {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 15px 20px;
+    background: none;
+    outline: none;
+    border: 1.5px solid;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}

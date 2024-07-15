@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.facebook, .youtube, .instagram {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.text-info {
+    margin: 15px 0;
+}
+
+.counter {
+    font-size: 60px;
+}
